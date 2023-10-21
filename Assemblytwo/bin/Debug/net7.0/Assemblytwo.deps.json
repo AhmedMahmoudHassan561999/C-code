@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Assemblytwo/1.0.0": {
+        "dependencies": {
+          "Assemblyone": "1.0.0"
+        },
+        "runtime": {
+          "Assemblytwo.dll": {}
+        }
+      },
+      "Assemblyone/1.0.0": {
+        "runtime": {
+          "Assemblyone.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assemblytwo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Assemblyone/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CSharpFundamental/1.0.0": {
+        "dependencies": {
+          "ProjectA.TeamA": "1.0.0.0",
+          "ProjectA.TeamB": "1.0.0.0"
+        },
+        "runtime": {
+          "CSharpFundamental.dll": {}
+        }
+      },
+      "ProjectA.TeamA/1.0.0.0": {
+        "runtime": {
+          "ProjectA.TeamA.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ProjectA.TeamB/1.0.0.0": {
+        "runtime": {
+          "ProjectA.TeamB.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpFundamental/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectA.TeamA/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectA.TeamB/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
